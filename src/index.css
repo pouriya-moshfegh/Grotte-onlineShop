@@ -11,4 +11,19 @@
 .flex-center{
   @apply flex justify-center items-center
 }
+.text-primary{
+  @apply text-[#3c2313]
 }
+.text-xsm{
+  @apply text-[13px]
+}
+}
+svg,
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+

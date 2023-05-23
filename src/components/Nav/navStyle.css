@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hover-p {
+    @apply hover:text-[#ce6ec2];
+  }
+}
+
+@layer components {
+  .dropdown-content {
+    @apply hidden absolute w-40 rounded-sm border border-black/20 text-[13px] p-3 z-20 bg-white;  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.search-bar:hover .search-box{
+  display: block;
+
+}

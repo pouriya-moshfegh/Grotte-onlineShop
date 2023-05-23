@@ -12,7 +12,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Graphik", "sans-serif"],
-        serif: ["Montserrat","Karla", "serif"],
+        serif: ["Karla","Montserrat", "serif"],
       },
     },
   },

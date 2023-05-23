@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
-// import  {SlDiamond}  from "react-icons/si";
-import { FaBeer } from "react-icons/fa";
-
 const headerDatails = [
   "We provide high quality materials",
   "Free shiping on all orders over $100",
-  ` Big summer sale`,
+  `Big summer sale`,
 ];
 
 export default function Header() {
@@ -22,7 +19,7 @@ export default function Header() {
   }, [index]);
 
   return (
-    <header className="text-[13px] py-3 border-b">
+    <header className="text-xsm py-3 border-b">
       <div
         className="flex sm:justify-between items-center  flex-col sm:flex-row 
          text-[#999999] font-[karla]"

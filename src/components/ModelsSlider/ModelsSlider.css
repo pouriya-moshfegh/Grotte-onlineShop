@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3c2313 !important;
+}
+
+@layer components {
+  .modelbox {
+    @apply w-full h-full  overflow-hidden flex justify-center items-center  px-12;
+  }
+  .modelbox-title {
+    @apply  relative z-10 text-white text-3xl xsm:text-4xl sm:text-5xl  xl:text-8xl font-bold font-[Montserrat] uppercase ;
+  }
+  .modelbox-img {
+    @apply absolute z-0 top-0 h-[60vh] object-cover mx-auto;
+  }
+}
+.modelbox-title{
+    text-shadow: 1px 2px #000000b7;
+}
