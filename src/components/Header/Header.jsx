@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-const headerDatails = [
+const headerDetails = [
   "We provide high quality materials",
   "Free shiping on all orders over $100",
   `Big summer sale`,
@@ -7,14 +7,14 @@ const headerDatails = [
 
 export default function Header() {
   const [index, setIndex] = useState(0);
-  const [title, setTitle] = useState(headerDatails[index]);
+  const [title, setTitle] = useState(headerDetails[index]);
 
   useEffect(() => {
     setTimeout(() => {
-      index < headerDatails.length
+      index < headerDetails.length
         ? setIndex((prevIndex) => prevIndex + 1)
         : setIndex(0);
-      setTitle(headerDatails[index] || headerDatails[1]);
+      setTitle(headerDetails[index] || headerDetails[1]);
     }, 3000);
   }, [index]);
 
