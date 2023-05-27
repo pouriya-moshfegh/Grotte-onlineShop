@@ -17,6 +17,9 @@
 .text-xsm{
   @apply text-[13px]
 }
+.full-bg{
+  @apply w-full absolute scale-x-150 h-full z-0 h-full
+}
 }
 svg,
 input,

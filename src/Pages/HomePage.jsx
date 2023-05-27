@@ -6,6 +6,10 @@ import Nav from "../components/Nav/Nav";
 import ModelSlider from '../components/ModelsSlider/ModelSlider';
 import Promote from '../components/Promote/Promote';
 import Blog from '../components/Blog/Blog';
+import Products from '../components/Products/Products';
+import Trends from '../components/Trends/Trends';
+import Subcription from '../components/Subscription/Subcription';
+import Footer from '../components/Footer/Footer';
 
 export default function HomePage() {
 
@@ -16,7 +20,7 @@ export default function HomePage() {
 
 
   return (
-    <div className="px-4  ">
+    <div className="px-8  ">
       <div className="lg:max-w-[1040px] mx-auto">
         <Header />
         <LogoF/>
@@ -24,6 +28,10 @@ export default function HomePage() {
         <ModelSlider/>
         <Promote/>
         <Blog/>
+        <Products/>
+        <Trends/>
+        <Subcription />
+        <Footer/>
       </div>
     </div>
   );

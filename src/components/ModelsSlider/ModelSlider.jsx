@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./ModelsSlider.css";
 import "swiper/css";
@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import PrimaryBtn from "../Buttons/PrimaryBtn";
 export default function ModelSlider() {
+
   return (
     <>
       <Swiper
@@ -17,11 +18,7 @@ export default function ModelSlider() {
           delay: 3500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper mt-8"
       >
         <SwiperSlide className="h-[60vh] ">

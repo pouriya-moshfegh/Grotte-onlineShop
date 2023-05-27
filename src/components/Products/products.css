@@ -1,22 +1,30 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
- .sale-box {
-  @apply uppercase absolute top-2 left-2 rounded text-[13px] text-white text-center p-1;
+  .product-box {
+    @apply w-[80%]  mx-auto smd:mx-0  smd:w-full  relative ;
   }
- .sale-title {
-  @apply block mt-3  text-[16px] capitalize font-[karla] font-semibold;
+  .sale-box {
+    @apply uppercase absolute top-2 left-2 rounded text-[13px] text-white text-center p-1;
   }
- .sale-category {
-  @apply text-black/60 block  -mt-1 capitalize font-semibold;
+  .sale-title {
+    @apply block mt-3  text-[16px] capitalize font-[karla] font-semibold;
   }
- .action-box {
-  @apply  hidden  absolute w-full h-full top-0 justify-center items-end pb-4 px-2;
+  .sale-category {
+    @apply text-black/60 block  -mt-1 capitalize font-semibold;
+  }
+  .action-box {
+    @apply opacity-0 flex absolute w-full h-full top-0 justify-center items-end pb-4 px-2 duration-300;
+  }
+  .action-box-btn {
+    @apply h-10 rounded-sm px-3 grid place-items-center hover:bg-pink-400 duration-200;
+  }
+  .action-box-add {
+    @apply rounded-sm text-white h-10 w-[calc(10rem-(3*0.5rem))] bg-[#3c2313] hover:bg-pink-400 duration-200;
   }
 }
-.product-box:hover .action-box{
-    display:flex;
+.product-box:hover .action-box {
+  opacity: 1;
 }

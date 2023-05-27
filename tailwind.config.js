@@ -4,15 +4,15 @@ export default {
   theme: {
     screens: {
       xsm:'300px',
-      sm: '480px',
-      smd: '600px',
+      sm: '550px',
+      smd: '650px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
     },
     extend: {
       fontFamily: {
-        sans: ["Graphik", "sans-serif"],
+        sans: ["ArbutusSlab","Graphik", "sans-serif"],
         serif: ["Karla","Montserrat", "serif"],
       },
     },
