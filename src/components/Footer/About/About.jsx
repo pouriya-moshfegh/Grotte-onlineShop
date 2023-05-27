@@ -16,7 +16,7 @@ export default function About() {
           collections that are wide-ranging and varied for women, men, teenagers
           and children.
         </p>text-[#999999] font-[karla]
-        <p className="mt-3"> Thanks for visiting </p>
+        <p className="mt-5"> Thanks for visiting </p>
       </div>
     </div>
   );

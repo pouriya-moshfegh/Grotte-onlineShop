@@ -7,6 +7,6 @@
   @apply text-[#3c2313] uppercase font-semibold text-[15px] p-[1px] border-b-2 inline-block border-[#3c2313]
   }
  .social-box {
-  @apply w-full px-3 py-2 bg-[#dedacc] hover:bg-[#3c2313] text-[#3c2313] hover:text-white duration-200 mt-2
+  @apply w-full px-3 py-[8px] bg-[#dedacc] hover:bg-[#3c2313] text-[#3c2313] hover:text-white duration-200 mt-1
   }
 }

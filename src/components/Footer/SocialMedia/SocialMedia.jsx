@@ -4,7 +4,7 @@ import { BsPinterest} from "react-icons/bs";
 
 export default function SocialMedia() {
   return (
-    <div className="mt-7">
+    <div className="mt-8">
         {/* facebook */}
       <div className="social-box">
         <a href="#">

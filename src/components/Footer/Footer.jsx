@@ -3,6 +3,7 @@ import About from "./About/About";
 import "./footer.css";
 import FooterProductBox from "./FooterProductBox/FooterProductBox";
 import SocialMedia from "./SocialMedia/SocialMedia";
+import MyInfo from "../MyInfo/MyInfo";
 
 export default function Footer() {
   return (
@@ -21,6 +22,8 @@ export default function Footer() {
 
         {/* _______ */}
       </div>
+        <MyInfo />
+      
     </footer>
   );
 }
