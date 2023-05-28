@@ -1,9 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-import "./ModelsSlider.css";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./ModelsSlider.css"
 import { Autoplay, Navigation } from "swiper";
 import PrimaryBtn from "../Buttons/PrimaryBtn";
 export default function ModelSlider() {
